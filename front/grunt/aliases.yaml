@@ -1,0 +1,52 @@
+# $ grunt
+default:
+#  - 'runsass'
+  - 'runless'
+  - 'js'
+  
+# $ grunt runsass
+runsass:
+#  - 'clean'
+  - 'sass:dist'
+#  - 'contrib_sass:dist'
+  - 'usebanner:dist'
+  - 'growl:sass'
+  
+# $ grunt runless
+runless:
+#  - 'clean'
+  - 'less:dist'
+  - 'usebanner:dist'
+  - 'growl:less'
+  
+# $ grunt js
+js:
+  - 'clean'
+  - 'concat:dist'
+  - 'uglify'
+  - 'growl:js'
+  
+# $ grunt imgmin
+imgmin:
+  - 'imagemin'
+  - 'growl:imagemin'
+  
+# $ grunt runpot
+runpot:
+  - 'pot'
+  - 'growl:pot'
+
+# $ grunt imgsprite
+imgsprite:
+  - 'sprite'
+  - 'growl:sprite'
+
+# $ grunt check
+check:
+  - 'cssmetrics'
+  - 'growl:cssmetrics'
+
+# $ grunt serve
+serve:
+  - 'default'
+  - 'watch'

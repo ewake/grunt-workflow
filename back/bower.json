@@ -1,0 +1,22 @@
+{
+  "name": "wp-app-admin",
+  "description": "WPApp admin",
+  "main": "Gruntfile.js",
+  "authors": [
+    "ewake"
+  ],
+  "license": "MIT",
+  "homepage": "https://ewake.it",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fancybox": "^2.1.5",
+    "bootstrap-sass": "bootstrap-sass-official#^3.3.6",
+    "jquery-ui": "^1.11.4"
+  }
+}

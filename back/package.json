@@ -1,0 +1,28 @@
+{
+  "name": "wp-app-admin",
+  "version": "0.1.0",
+  "description": "WPApp admin",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ewake",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-banner": "^0.6.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-css-metrics": "^0.1.2",
+    "grunt-growl": "^0.1.5",
+    "grunt-sass": "^1.2.0",
+    "grunt-spritesmith": "^6.3.1",
+    "imagemin-mozjpeg": "^6.0.0",
+    "load-grunt-config": "^0.19.2",
+    "load-grunt-tasks": "^3.5.0"
+  }
+}

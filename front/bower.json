@@ -1,0 +1,21 @@
+{
+  "name": "domain.tld",
+  "description": "domain.tld",
+  "main": "Gruntfile.js",
+  "authors": [
+    "ewake"
+  ],
+  "license": "MIT",
+  "homepage": "https://ewake.it",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "jquery-migrate": "^3.0.0"
+  }
+}
